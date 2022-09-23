@@ -1,0 +1,31 @@
+#prog {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#prog-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.prog-intro {
+  font-size: 13px;
+}
+
+#prog-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#prog-bar {
+  max-height: 50px;
+}
+
+#revenue {
+  color: #71A8FF;
+}
+

@@ -1,0 +1,39 @@
+button {
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 125px;
+  padding: 5px; 
+  margin: 10px 0px;
+}
+
+#all-buttons {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#next-button1 {
+  background-color: white;
+}
+
+#comp-button {
+  display: none;
+  background-color: #71A8FF;
+}
+
+#prev-button {
+  display: none;
+  background-color: #7F8187;
+}
+
+#next-button2 {
+  display: none;
+  background-color: white;
+}
+
+#restart-button {
+  display: none;
+  background-color: white;
+}

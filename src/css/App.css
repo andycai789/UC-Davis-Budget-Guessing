@@ -1,0 +1,26 @@
+.chart-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+#expenses-data {
+  display: none;
+}
+
+#rev-results, #exp-results{
+  font-size: 25px;
+  display: none;
+}
+
+#rev-guess, #exp-guess {
+  display: none;
+}
+
+#rev-actual, #exp-actual {
+  display: none;
+}
+
+#actual-rev-pie-chart, #actual-exp-pie-chart {
+  display: none;
+}
+
