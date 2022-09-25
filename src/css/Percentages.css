@@ -1,6 +1,8 @@
 #rev-percents, #exp-percents{
   font-size: 13px;
   font-weight: bold;
+  max-width: 300px;
+  margin: auto;
 }
 
 .percent-titles {

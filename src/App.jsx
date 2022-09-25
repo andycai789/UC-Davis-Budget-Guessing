@@ -13,21 +13,21 @@ function App() {
     { name: "Student Fees", value: 0, color: "#F6E50E" }, 
     { name: "State of California", value: 0, color: "#FFF688" }, 
     { name: "Tuition", value: 0, color: "#5F63EC"}, 
-    { name: "Research Grants and Contracts", value: 0, color: "#71A8FF"}, 
+    { name: "Research & Grants", value: 0, color: "#71A8FF"}, 
     { name: "Pell Grants", value: 0, color: "cyan" }, 
-    { name: "Non-educational Services", value: 0, color: "#0F7AB4" }, 
-    { name: "Gifts, Endowments, Interest, Etc.", value: 0, color: "#D4E4FF" }]
+    { name: "Services", value: 0, color: "#0F7AB4" }, 
+    { name: "Gifts & Endowments", value: 0, color: "#D4E4FF" }]
 
   let expData = [ 
     { name: "Medical Center", value: 0, color: "#F0BF00" }, 
-    { name: "Teaching and Teaching Support", value: 0, color: "#F6E50E" }, 
+    { name: "Teaching Support", value: 0, color: "#F6E50E" }, 
     { name: "Research", value: 0, color: "#FFF688" }, 
-    { name: "Student Services and Financial Aid", value: 0, color: "#5F63EC" }, 
-    { name: "Operations and Maintenance (Buildings, etc)", value: 0, color: "#71A8FF" }, 
+    { name: "Financial Aid", value: 0, color: "#5F63EC" }, 
+    { name: "Operations & Maintenance", value: 0, color: "#71A8FF" }, 
     { name: "Administration", value: 0, color: "cyan" }, 
-    { name: "Non-Educational Services", value: 0, color: "#0F7AB4" }, 
+    { name: "Services", value: 0, color: "#0F7AB4" }, 
     { name: "Public Service", value: 0, color: "#D4E4FF" }, 
-    { name: "Depreciation, Interest, etc.", value: 0, color: "#E3A400"}]
+    { name: "Depreciation & Interest", value: 0, color: "#E3A400"}]
 
   const [revUserData, setRevData] = useState(revData);
   const [expUserData, setExpData] = useState(expData);

@@ -45,7 +45,7 @@ function ExpenseCompare() {
   document.getElementById("revenue-data")
           .style.display = "inline";
   document.getElementById("actual-rev-pie-chart")
-          .style.display = "inline";
+          .style.display = "block";
 
   document.getElementById("rev-title")
           .style.display = "none";
@@ -100,7 +100,7 @@ function CompareNext() {
   document.getElementById("expenses-data")
           .style.display = "inline";
   document.getElementById("actual-exp-pie-chart")
-          .style.display = "inline";
+          .style.display = "block";
   
   document.getElementById("exp-title")
           .style.display = "none";
@@ -158,9 +158,9 @@ function CompareRestart() {
           .style.display = "none";
 
   document.getElementById("rev-percents")
-          .style.display = "inline";
+          .style.display = "block";
   document.getElementById("exp-percents")
-          .style.display = "inline";
+          .style.display = "block";
 
   console.log("Pressed CompareRestart");
 }
