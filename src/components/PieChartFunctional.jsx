@@ -10,7 +10,7 @@ function PieChart(props) {
     let d3Container = useRef(null);
     
     let dimensions = ({
-      width: props.width ? props.width : 300,
+      width: props.width ? props.width : 220,
       height: props.height ? props.height : 200,
       padding: props.padding ? props.padding : 50
     });
