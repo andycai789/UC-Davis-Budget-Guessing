@@ -24,7 +24,7 @@ function Prog() {
 
   return (
     <div id="prog">
-      <p id="prog-title">Slice the Pie</p>
+      <p id="prog-title">UC Davis Budget Guessing</p>
 
       <p className="prog-intro">
       Say you got to run the University. How much would you allocate to different sectors? Learn about your funding sources, with a guessing game.
